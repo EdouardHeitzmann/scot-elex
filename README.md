@@ -116,3 +116,21 @@ How to read it:
 - West Dunbartonshire Community (WDuns)
 - Women's Equality Party (WEP)
 - Worker Party of Britain (WPB)
+
+
+## By Number of Candidates
+
+The folder structure separates out the elections by the number of candidates.  The 1070 elections break down as follows.
+
+- 3 candidates:	2 elections
+- 4 candidates: 	36 elections
+- 5 candidates:	110 elections
+- 6 candidates:	205 elections
+- 7 candidates:	282 elections
+- 8 candidates:	207 elections
+- 9 candidates: 	118 elections
+- 10 candidates:	69 elections
+- 11 candidates:	26 elections
+- 12 candidates:	8 elections
+- 13 candidates:	6 elections
+- 14 candidates:	1 elections
