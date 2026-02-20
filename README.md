@@ -93,7 +93,7 @@ How to read it:
 - National Front (NF)
 - No Referendum, Maintain Union, Pro-Brexit (NRMUPB)
 - Orkney Manifesto Group (OMG)
-- Piarate (Pir)
+- Pirate (Pir)
 - RISE (RISE)
 - Rubbish (Rubbish)
 - Scotland Independent Network (ScIN)
