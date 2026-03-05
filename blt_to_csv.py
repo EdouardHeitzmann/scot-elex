@@ -21,7 +21,7 @@ def process_2007_cands(cands):
 
     name_party_pairs = []
     for c in cands:
-        name = re.search(r"(?<=:\s)[A-Z,a-z\s]*", c).group()
+        name = re.search(r"(?<=:\s)[A-Z,\-,\.,a-z,\s]*", c).group()
         party = re.search(r"(?<=\()[A-Z,a-z,\s]*(?<!\))", c).group()
 
         name_party_pairs.append((name, party_dict_2007[party]))
@@ -82,11 +82,11 @@ def process_2012_2017_cands(cands):
     name_party_pairs = []
 
     for c in cands:
-        name = re.search(r"[A-Z,a-z,\.,\s]*", c)
+        name = re.search(r"[A-Z,a-z,\-,\.,\s]*", c)
         party = re.search(r"(?<=\()[A-Z,a-z,\s]*(?<!\))", c)
 
         if not name or not party:
-            name = re.search(r"(?<=\"\")[A-Z,a-z,\.,\s]{2,}(?<!\"\")", c)
+            name = re.search(r"(?<=\"\")[A-Z,a-z,\-,\.,\s]{2,}(?<!\"\")", c)
             party = re.search(r"(?<=^\")[A-Z,a-z,\s]*(?<!\s\")", c)
 
         name_party_pairs.append(
