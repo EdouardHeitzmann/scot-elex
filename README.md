@@ -134,3 +134,11 @@ The folder structure separates out the elections by the number of candidates.  T
 - 12 candidates:	8 elections
 - 13 candidates:	6 elections
 - 14 candidates:	1 elections
+
+## By Number of Seats
+
+- 1 seat: 1 election
+- 2 seats: 4 elections
+- 3 seats: 554 elections
+- 4 seats: 508 elections
+- 5 seats: 3 elections
